@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:background="@color/white_color"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:id="@+id/an_click"
+        android:padding="@dimen/dp_10"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:src="@drawable/d_head"
+            android:id="@+id/iv_head"
+            android:layout_width="50dp"
+            android:layout_height="50dp" />
+        <LinearLayout
+            android:layout_marginLeft="20dp"
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:text="ss"
+                    android:textColor="@color/colorPrimary"
+                    android:id="@+id/myu_nick"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:layout_marginLeft="10dp"
+                    android:text="评论了你："
+                    android:textColor="@color/circletint_color"
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:layout_marginLeft="30dp"
+                    android:text="time"
+                    android:textColor="@color/colorPrimary"
+                    android:id="@+id/myu_time"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+            </LinearLayout>
+
+
+
+
+            <TextView
+                android:text="ss"
+                android:layout_marginTop="@dimen/dp_10"
+                android:textColor="@color/circletint_color"
+                android:id="@+id/myu_content"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <!--            <TextView-->
+            <!--                android:text="time"-->
+            <!--                android:layout_marginTop="@dimen/dp_10"-->
+            <!--                android:textColor="@color/jztint_color"-->
+            <!--                android:id="@+id/tv_time"-->
+            <!--                android:layout_width="wrap_content"-->
+            <!--                android:layout_height="wrap_content" />-->
+
+        </LinearLayout>
+
+    </LinearLayout>
+    <View
+        android:background="#878282"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"/>
+
+
+
+    <View
+        android:background="@color/white_color"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"/>
+
+
+
+<!--    <LinearLayout-->
+
+<!--        android:layout_gravity="right"-->
+<!--        android:orientation="horizontal"-->
+<!--        android:layout_weight="1"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content">-->
+
+<!--        <TextView-->
+
+<!--            android:layout_marginLeft="@dimen/dp_10"-->
+<!--            android:id="@+id/tv_btpl"-->
+<!--            android:textColorHint="#000000"-->
+<!--            android:textSize="14sp"-->
+<!--            android:text="评论"-->
+<!--            android:layout_width="50dp"-->
+<!--            android:layout_height="20dp" />-->
+<!--    </LinearLayout>-->
+<!--    <View-->
+<!--        android:background="#000000"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="1dp"/>-->
+
+
+
+
+</LinearLayout>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:background="@drawable/asun"
+        android:layout_height="0dp">
+
+<!--        &lt;!&ndash;可以作为广告区域&ndash;&gt;-->
+<!--        <ImageView-->
+<!--            android:tint="#ec6f11"-->
+<!--            android:src="@drawable/wel"-->
+<!--            android:layout_width="200dp"-->
+<!--            android:layout_height="200dp" />-->
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="120dp">
+
+        <View
+            android:background="#000"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"/>
+        <LinearLayout
+
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:tint="#FE4564"
+                android:background="@drawable/logo"
+                android:layout_width="70dp"
+                android:layout_height="70dp" />
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:textColor="#FE4564"
+                android:textStyle="bold"
+                android:textSize="25sp"
+                android:text="校园随心说"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/sp_time"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:text="跳过"
+                android:textSize="16sp"
+                android:background="@drawable/shape_spltime"
+                android:layout_width="60dp"
+                android:layout_height="35dp" />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</LinearLayout>

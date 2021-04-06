@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@color/white_color"
+    android:layout_marginBottom="@dimen/dp_10"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:padding="@dimen/dp_10"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:src="@drawable/d_head"
+            android:id="@+id/iv_head"
+            android:layout_width="50dp"
+            android:layout_height="50dp" />
+        <LinearLayout
+            android:layout_marginLeft="20dp"
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:text="ss"
+
+                    android:textColor="@color/circletint_color"
+                    android:id="@+id/tv_u_id"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:text="ss"
+                    android:layout_marginLeft="30dp"
+                    android:textColor="@color/circletint_color"
+                    android:id="@+id/tv_u_nick"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+
+            <!--            <TextView-->
+            <!--                android:text="time"-->
+            <!--                android:layout_marginTop="@dimen/dp_10"-->
+            <!--                android:textColor="#999999"-->
+            <!--                android:id="@+id/tv_time"-->
+            <!--                android:layout_width="wrap_content"-->
+            <!--                android:layout_height="wrap_content" />-->
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+    <View
+
+        android:background="#eeeeee"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"/>
+<!--    <LinearLayout-->
+
+<!--        android:layout_marginBottom="@dimen/dp_10"-->
+<!--        android:layout_marginTop="@dimen/dp_10"-->
+<!--        android:orientation="horizontal"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content">-->
+<!--        <LinearLayout-->
+<!--            android:gravity="center"-->
+<!--            android:orientation="horizontal"-->
+<!--            android:layout_weight="1"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content">-->
+
+<!--            <TextView-->
+<!--                android:id="@+id/tv_uinfo"-->
+<!--                android:layout_marginLeft="@dimen/dp_10"-->
+<!--                android:textSize="14sp"-->
+<!--                android:text="查看用户信息"-->
+<!--                android:layout_width="100dp"-->
+<!--                android:layout_height="20dp" />-->
+<!--        </LinearLayout>-->
+<!--        <View-->
+<!--            android:background="#eeeeee"-->
+<!--            android:layout_width="1dp"-->
+<!--            android:layout_height="20dp"/>-->
+
+
+
+<!--    </LinearLayout>-->
+
+            <View
+                android:background="#eeeeee"
+                android:layout_width="1dp"
+                android:layout_height="20dp"/>
+
+</LinearLayout>

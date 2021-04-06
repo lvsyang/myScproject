@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white_color">
+    <include layout="@layout/layout_head"/>
+
+
+<!--    <android.support.v4.widget.NestedScrollView-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="match_parent"-->
+<!--        android:orientation="vertical"-->
+<!--        android:scrollbars="none">-->
+<!--        <LinearLayout-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="match_parent"-->
+<!--            android:orientation="vertical">-->
+
+
+
+
+
+    <LinearLayout
+        android:padding="@dimen/dp_10"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:src="@drawable/d_head"
+            android:id="@+id/iv_head"
+            android:layout_width="50dp"
+            android:layout_height="50dp" />
+        <LinearLayout
+            android:layout_marginLeft="20dp"
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:text="ss"
+                    android:textColor="#333333"
+                    android:id="@+id/tv_nick"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:textSize="10dp"
+                    android:layout_marginLeft="50dp"
+                    android:text=""
+                    android:textColor="#999999"
+                    android:id="@+id/tv_logtime"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+
+            <TextView
+                android:text="time"
+                android:layout_marginTop="@dimen/dp_10"
+                android:textColor="#999999"
+                android:id="@+id/tv_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+    </LinearLayout>
+<!--    <android.support.v4.widget.NestedScrollView-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        app:layout_behavior="@string/appbar_scrolling_view_behavior">-->
+
+
+
+
+
+    <TextView
+        android:layout_marginRight="@dimen/dp_10"
+        android:layout_marginLeft="@dimen/dp_10"
+        android:text="c"
+        android:textSize="14sp"
+        android:textColor="@color/circletint_color"
+        android:textStyle="bold"
+        android:id="@+id/tv_content"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+
+
+    <android.support.v7.widget.RecyclerView
+        android:layout_margin="@dimen/dp_10"
+        android:id="@+id/recycler_img"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </android.support.v7.widget.RecyclerView>
+
+
+
+    <View
+        android:background="#f3f3f3"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"/>
+    <LinearLayout
+
+        android:layout_marginTop="@dimen/dp_10"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ImageView
+
+
+                android:src="@mipmap/zf"
+                android:layout_width="20dp"
+                android:layout_height="20dp" />
+            <TextView
+                android:id="@+id/iv_zf"
+                android:layout_marginLeft="@dimen/dp_10"
+                android:textSize="14sp"
+                android:text="转发"
+                android:layout_width="50dp"
+                android:layout_height="20dp" />
+        </LinearLayout>
+        <View
+            android:background="#eeeeee"
+            android:layout_width="1dp"
+            android:layout_height="20dp"/>
+        <LinearLayout
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            >
+            <ImageView
+
+                android:id="@+id/iv_zan"
+
+                android:src="@mipmap/zan"
+                android:layout_width="20dp"
+                android:layout_height="20dp" />
+            <TextView
+                android:layout_marginLeft="@dimen/dp_10"
+                android:id="@+id/tv_zan_num"
+                android:textSize="16sp"
+                android:text="0"
+                android:layout_width="50dp"
+                android:layout_height="20dp" />
+        </LinearLayout>
+        <View
+            android:background="#eeeeee"
+            android:layout_width="1dp"
+            android:layout_height="20dp"/>
+        <LinearLayout
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_marginLeft="@dimen/dp_10"
+                android:id="@+id/tv_gz"
+                android:textSize="14sp"
+                android:text="关注"
+                android:layout_width="50dp"
+                android:layout_height="20dp" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+    <View
+        android:layout_marginTop="7dp"
+        android:background="#f3f3f3"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"/>
+
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+    <TextView
+        android:id="@+id/tv_plnum"
+        android:textColor="@color/colorPrimary"
+        android:layout_margin="@dimen/dp_10"
+        android:textStyle="bold"
+        android:textSize="16sp"
+        android:text="评论列表"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"/>
+
+    <Button
+        android:id="@+id/yuding"
+        android:visibility="gone"
+        android:background="@color/colorPrimary"
+        android:layout_width="wrap_content"
+        android:textColor="@color/white_color"
+        android:layout_height="30dp"
+        android:text="预定" />
+</LinearLayout>
+
+    <android.support.v7.widget.RecyclerView
+
+        android:id="@+id/recycler_pl"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </android.support.v7.widget.RecyclerView>
+
+
+
+    <LinearLayout
+        android:layout_gravity="center_vertical"
+        android:padding="7dp"
+        android:background="@color/colorPrimary"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        >
+        <EditText
+            android:layout_marginLeft="@dimen/dp_10"
+            android:textSize="13sp"
+            android:id="@+id/et_pl"
+            android:background="@drawable/shap_send"
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" />
+        <TextView
+            android:layout_marginRight="@dimen/dp_10"
+            android:id="@+id/tv_send"
+            android:textColor="@color/white"
+            android:layout_marginLeft="@dimen/dp_10"
+            android:text="发送"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+<!--        </LinearLayout>-->
+<!--    </android.support.v4.widget.NestedScrollView>-->
+<!--        </LinearLayout>-->
+<!--    </ScrollView>-->
+
+</LinearLayout>

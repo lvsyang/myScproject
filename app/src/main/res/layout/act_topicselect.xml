@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <include layout="@layout/layout_head"/>
+
+
+    <LinearLayout
+        android:layout_gravity="center"
+        android:layout_marginLeft="15dp"
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+
+
+        <TextView
+
+            android:id="@+id/okk"
+            android:textSize="22sp"
+            android:text=" 请选择你要添加的话题"
+            android:textColor="#170C0C"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+
+
+    </LinearLayout>
+
+    <View
+        android:background="@color/colorAccent"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"/>
+
+    <TextView
+        android:id="@+id/tc_study"
+        android:paddingLeft="@dimen/phoenix_dimen_20"
+        android:gravity="center_vertical"
+        android:text="学习"
+        android:layout_width="match_parent"
+        android:layout_height="48dp" />
+    <View
+        android:background="@color/colorAccent"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"/>
+    <TextView
+        android:id="@+id/tc_life"
+        android:paddingLeft="@dimen/phoenix_dimen_20"
+        android:gravity="center_vertical"
+        android:text="生活"
+        android:layout_width="match_parent"
+        android:layout_height="48dp" />
+    <View
+        android:background="@color/colorAccent"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"/>
+
+    <TextView
+        android:id="@+id/tc_sport"
+        android:paddingLeft="@dimen/phoenix_dimen_20"
+        android:gravity="center_vertical"
+        android:text="运动"
+        android:layout_width="match_parent"
+        android:layout_height="48dp" />
+    <View
+        android:background="@color/colorAccent"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"/>
+
+
+    <TextView
+        android:id="@+id/tc_game"
+        android:paddingLeft="@dimen/phoenix_dimen_20"
+        android:gravity="center_vertical"
+        android:text="游戏"
+        android:layout_width="match_parent"
+        android:layout_height="48dp" />
+    <View
+        android:background="@color/colorAccent"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"/>
+
+    <TextView
+        android:id="@+id/tc_digit"
+        android:paddingLeft="@dimen/phoenix_dimen_20"
+        android:gravity="center_vertical"
+        android:text="数码"
+        android:layout_width="match_parent"
+        android:layout_height="48dp" />
+    <View
+        android:background="@color/colorAccent"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"/>
+
+
+    <TextView
+        android:id="@+id/tc_college"
+        android:paddingLeft="@dimen/phoenix_dimen_20"
+        android:gravity="center_vertical"
+        android:text="校园"
+        android:layout_width="match_parent"
+        android:layout_height="48dp" />
+    <View
+        android:background="@color/colorAccent"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"/>
+
+<!--    <TextView-->
+<!--        android:visibility="gone"-->
+<!--        android:id="@+id/tv_rmanager"-->
+<!--        android:paddingLeft="@dimen/phoenix_dimen_20"-->
+<!--        android:gravity="center_vertical"-->
+<!--        android:text="注册管理员"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="48dp" />-->
+<!--    <View-->
+<!--        android:background="@color/colorAccent"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="1dp"/>-->
+
+
+</LinearLayout>

@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <include layout="@layout/layout_head"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:scrollbars="none">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:padding="@dimen/dp_10"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:src="@drawable/d_head"
+                    android:id="@+id/iv_head"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp" />
+                <LinearLayout
+                    android:layout_marginLeft="20dp"
+                    android:orientation="vertical"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:text="ss"
+                        android:textColor="#333333"
+                        android:id="@+id/tv_nick"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                    <TextView
+                        android:text="time"
+                        android:layout_marginTop="@dimen/dp_10"
+                        android:textColor="#999999"
+                        android:id="@+id/tv_time"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                </LinearLayout>
+
+            </LinearLayout>
+            <TextView
+                android:layout_marginRight="@dimen/dp_10"
+                android:layout_marginLeft="@dimen/dp_10"
+                android:text=""
+                android:textSize="14sp"
+                android:textColor="@color/colorPrimary"
+                android:textStyle="bold"
+                android:id="@+id/tv_content"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+<!--            <android.support.v7.widget.RecyclerView-->
+<!--                android:layout_margin="@dimen/dp_10"-->
+<!--                android:id="@+id/recycler_img"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content">-->
+
+<!--            </android.support.v7.widget.RecyclerView>-->
+
+            <View
+                android:background="#f3f3f3"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"/>
+
+
+            <TextView
+                android:id="@+id/tv_del"
+                android:layout_marginTop="@dimen/phoenix_dimen_75"
+                android:layout_gravity="center_horizontal"
+                android:text="删除该用户"
+                android:textColor="@color/white"
+                android:gravity="center"
+                android:background="@color/colorPrimary"
+                android:layout_width="250dp"
+                android:layout_height="35dp" />
+            <TextView
+                android:id="@+id/tv_del2"
+                android:layout_marginTop="20dp"
+                android:layout_gravity="center_horizontal"
+                android:text="解封"
+                android:textColor="@color/white"
+                android:gravity="center"
+                android:background="@color/colorPrimary"
+                android:layout_width="250dp"
+                android:layout_height="35dp" />
+            <TextView
+                android:id="@+id/tv_del3"
+                android:layout_marginTop="20dp"
+                android:layout_gravity="center_horizontal"
+                android:text="封号"
+                android:textColor="@color/white"
+                android:gravity="center"
+                android:background="@color/colorPrimary"
+                android:layout_width="250dp"
+                android:layout_height="35dp" />
+            <TextView
+                android:visibility="gone"
+                android:id="@+id/tv_del1"
+                android:layout_marginTop="20dp"
+                android:layout_gravity="center_horizontal"
+                android:text="此条说说没问题，删除该条举报"
+                android:textColor="@color/white"
+                android:gravity="center"
+                android:background="@color/colorAccent"
+                android:layout_width="250dp"
+                android:layout_height="35dp" />
+
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

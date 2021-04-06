@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#FE4564</color>
+    <color name="colorPrimaryDark">#FE4564</color>
+    <color name="colorAccent">#E67A17</color>
+    <color name="white_color">#FFF</color>
+    <color name="circletint_color">#000</color>
+    <color name="waikuang_color">#FFF</color>
+    <color name="jztint_color">#676666</color>
+</resources>

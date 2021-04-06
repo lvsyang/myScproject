@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <include layout="@layout/layout_head"/>
+
+
+    <LinearLayout
+        android:layout_marginLeft="15dp"
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+
+        <TextView
+            android:id="@+id/muser"
+            android:textSize="22sp"
+            android:text="加载中。。。"
+            android:textColor="#E91E63"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:id="@+id/okk"
+            android:textSize="22sp"
+            android:text=" 管理员欢迎你"
+            android:textColor="#170C0C"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+
+
+    </LinearLayout>
+
+
+
+    <TextView
+        android:id="@+id/tv_gg"
+        android:paddingLeft="@dimen/phoenix_dimen_20"
+        android:gravity="center_vertical"
+        android:text="发布公告"
+        android:layout_width="match_parent"
+        android:layout_height="48dp" />
+    <View
+        android:background="@color/colorAccent"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"/>
+    <TextView
+        android:id="@+id/tv_gwxx"
+        android:paddingLeft="@dimen/phoenix_dimen_20"
+        android:gravity="center_vertical"
+        android:text="发布官方信息"
+        android:layout_width="match_parent"
+        android:layout_height="48dp" />
+    <View
+        android:background="@color/colorAccent"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"/>
+
+    <TextView
+        android:id="@+id/tv_manuser"
+        android:paddingLeft="@dimen/phoenix_dimen_20"
+        android:gravity="center_vertical"
+        android:text="用户管理"
+        android:layout_width="match_parent"
+        android:layout_height="48dp" />
+    <View
+        android:background="@color/colorAccent"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"/>
+
+
+    <TextView
+        android:id="@+id/tv_mancircle"
+        android:paddingLeft="@dimen/phoenix_dimen_20"
+        android:gravity="center_vertical"
+        android:text="动态管理"
+        android:layout_width="match_parent"
+        android:layout_height="48dp" />
+    <View
+        android:background="@color/colorAccent"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"/>
+
+    <TextView
+        android:id="@+id/tv_ggao"
+        android:paddingLeft="@dimen/phoenix_dimen_20"
+        android:gravity="center_vertical"
+        android:text="公告管理"
+        android:layout_width="match_parent"
+        android:layout_height="48dp" />
+    <View
+        android:background="@color/colorAccent"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"/>
+
+    <View
+        android:background="@color/colorAccent"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"/>
+
+    <TextView
+        android:id="@+id/tv_zhuce"
+        android:paddingLeft="@dimen/phoenix_dimen_20"
+        android:gravity="center_vertical"
+        android:text="注册管理"
+        android:layout_width="match_parent"
+        android:layout_height="48dp" />
+    <View
+        android:background="@color/colorAccent"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"/>
+
+
+    <TextView
+        android:id="@+id/tv_jb"
+        android:paddingLeft="@dimen/phoenix_dimen_20"
+        android:gravity="center_vertical"
+        android:text="举报管理"
+        android:layout_width="match_parent"
+        android:layout_height="48dp" />
+    <View
+        android:background="@color/colorAccent"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"/>
+
+    <TextView
+        android:visibility="gone"
+        android:id="@+id/tv_rmanager"
+        android:paddingLeft="@dimen/phoenix_dimen_20"
+        android:gravity="center_vertical"
+        android:text="注册管理员"
+        android:layout_width="match_parent"
+        android:layout_height="48dp" />
+    <View
+        android:background="@color/colorAccent"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"/>
+
+
+</LinearLayout>
